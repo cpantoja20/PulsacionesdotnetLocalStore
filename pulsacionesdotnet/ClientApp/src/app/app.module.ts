@@ -14,6 +14,7 @@ import { PersonaRegistroComponent } from './Pulsacion/persona-registro/persona-r
 import { AppRoutingModule } from './app-routing.module';
 import { PersonaService } from './services/persona.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { PersonaService } from './services/persona.service';
     CounterComponent,
     FetchDataComponent,
     PersonaConsultaComponent,
-    PersonaRegistroComponent
+    PersonaRegistroComponent,
+   
   ],
   imports: [
     ReactiveFormsModule,
